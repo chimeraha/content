@@ -60,7 +60,7 @@ tags:
    <td><code>.avif</code></td>
    <td>
     <p>Good choice for both images and animated images due to high performance and royalty free image format. It offers much better compression than PNG or JPEG with support for higher color depths, animated frames, transparency etc. Note that when using AVIF, you should include fallbacks to formats with better browser support (i.e. using the <code><a href="/en-US/docs/Web/HTML/Element/picture">&lt;picture&gt;</a></code> element). <br>
-     <strong>Supported:</strong> Chrome, Opera, Firefox (behind a <a href="/en-US/docs/Mozilla/Firefox/Experimental_features#avif_av1_image_file_format_support">preference</a>. Basic support only; advanced features like animated images and colorspace support yet to the implemented).</p>
+     <strong>Supported:</strong> Chrome, Opera, Firefox (92+ full support) (77-91 can provide <em>partial</em>/<em>basic</em> support by setting the preference <code>image.avif.enable</code> to <code>true</code>).</p>
    </td>
   </tr>
   <tr>
@@ -295,10 +295,7 @@ tags:
   </tr>
   <tr>
    <th scope="row">Browser compatibility</th>
-   <td>Chrome 85, Opera 71, and Firefox (behind a <a href="/en-US/docs/Mozilla/Firefox/Experimental_features#avif_av1_image_file_format_support">preference</a>).
-    <ul>
-      <li>Firefox 77 and later require the preference <code>image.avif.enable</code> set <code>true</code>. Firefox provides <em>basic</em> support for AVIF images. More advanced features are still in development — including animated images and colorspace support ({{bug(1682995)}}).</li>
-    </ul>
+   <td>Chrome 85, Opera 71, and Firefox 92 (77-91 can provide <em>partial</em>/<em>basic</em> support by setting the preference <code>image.avif.enable</code> to <code>true</code>.  See {{bug(1682995)}}).
    </td>
   </tr>
   <tr>
